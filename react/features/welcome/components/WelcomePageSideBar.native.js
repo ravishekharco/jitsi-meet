@@ -25,12 +25,12 @@ import styles, { SIDEBAR_AVATAR_SIZE } from './styles';
 /**
  * The URL at which the privacy policy is available to the user.
  */
-const PRIVACY_URL = 'https://jitsi.org/meet/privacy';
+const PRIVACY_URL = 'https://www.goquicklive.com/privacy-policy';
 
 /**
  * The URL at which the terms (of service/use) are available to the user.
  */
-const TERMS_URL = 'https://jitsi.org/meet/terms';
+const TERMS_URL = 'https://www.goquicklive.com/terms';
 
 type Props = {
 
@@ -109,10 +109,7 @@ class WelcomePageSideBar extends Component<Props> {
                             icon = { IconInfo }
                             label = 'welcomepage.privacy'
                             url = { PRIVACY_URL } />
-                        <SideBarItem
-                            icon = { IconHelp }
-                            label = 'welcomepage.getHelp'
-                            onPress = { this._onOpenHelpPage } />
+                        
                     </ScrollView>
                 </SafeAreaView>
             </SlidingView>

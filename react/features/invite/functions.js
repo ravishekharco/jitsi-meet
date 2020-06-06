@@ -532,11 +532,7 @@ export function getShareInfoText(
                         = `<a href="${dialInfoPageUrl}">${dialInfoPageUrl}</a>`;
                 }
 
-                infoText += i18next.t('share.dialInfoText', {
-                    defaultDialInNumber,
-                    dialInfoPageUrl });
-
-                return infoText;
+                return infoText.replace("meet.jit.si/", "goquick.live/roomname=");
             });
     }
 
