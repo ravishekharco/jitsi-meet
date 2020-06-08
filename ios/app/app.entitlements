@@ -5,6 +5,9 @@
 	<key>com.apple.developer.associated-domains</key>
 	<array>
 		<string>applinks:cloud.sabro.gql</string>
+		<string>applinks:org.jitsi.meet</string>
+		<string>applinks:meet.jit.si</string>
+		<string>applinks:app.goquick.live</string>
 	</array>
 	<key>com.apple.developer.siri</key>
 	<true/>

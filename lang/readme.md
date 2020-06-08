@@ -1,16 +1,16 @@
-Jitsi Meet Translation
+SaBRO Cloud Translation
 ==========================
-Jitsi Meet uses [i18next](http://i18next.com) library for translation.
+SaBRO Cloud uses [i18next](http://i18next.com) library for translation.
 i18next uses separate json files for each language.
 
 
-Translating Jitsi Meet
+Translating SaBRO Cloud
 ======================
-The translation of Jitsi Meet is handled editing manually the language files.
+The translation of SaBRO Cloud is handled editing manually the language files.
 
 Development
 ===========
-If you want to add new functionality for Jitsi Meet and you have texts that need to be translated you must add key and value in main.json file in English for each translatable text.
+If you want to add new functionality for SaBRO Cloud and you have texts that need to be translated you must add key and value in main.json file in English for each translatable text.
 Than you can use the key to get the translated text for the current language.
 
 You can add translatable text in the HTML:

@@ -532,7 +532,7 @@ export function getShareInfoText(
                         = `<a href="${dialInfoPageUrl}">${dialInfoPageUrl}</a>`;
                 }
 
-                return infoText.replace("meet.jit.si/", "goquick.live/roomname=");
+                return infoText.replace("meet.jit.si/", "app.goquick.live/");
             });
     }
 
