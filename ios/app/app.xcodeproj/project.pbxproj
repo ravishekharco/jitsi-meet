@@ -17,18 +17,17 @@
 		0BD6B4381EF82A6B00D1F4CD /* WebRTC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0BD6B4361EF82A6B00D1F4CD /* WebRTC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0BEA5C291F7B8F73000D0AB4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA5C271F7B8F73000D0AB4 /* Interface.storyboard */; };
 		0BEA5C2B1F7B8F73000D0AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA5C2A1F7B8F73000D0AB4 /* Assets.xcassets */; };
-		0BEA5C321F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0BEA5C311F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0BEA5C321F7B8F73000D0AB4 /* GoQuickLive Companion Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0BEA5C311F7B8F73000D0AB4 /* GoQuickLive Companion Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		0BEA5C371F7B8F73000D0AB4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA5C361F7B8F73000D0AB4 /* InterfaceController.swift */; };
 		0BEA5C391F7B8F73000D0AB4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA5C381F7B8F73000D0AB4 /* ExtensionDelegate.swift */; };
 		0BEA5C3B1F7B8F73000D0AB4 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA5C3A1F7B8F73000D0AB4 /* ComplicationController.swift */; };
 		0BEA5C3D1F7B8F73000D0AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BEA5C3C1F7B8F73000D0AB4 /* Assets.xcassets */; };
-		0BEA5C411F7B8F73000D0AB4 /* JitsiMeetCompanion.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0BEA5C251F7B8F73000D0AB4 /* JitsiMeetCompanion.app */; };
+		0BEA5C411F7B8F73000D0AB4 /* GoQuickLive.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0BEA5C251F7B8F73000D0AB4 /* GoQuickLive.app */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		695AF3ED6F686F9C5EE40F9A /* libPods-jitsi-meet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 489E8EFE2C720D10F5961AEF /* libPods-jitsi-meet.a */; };
-		7E536DA3248A6B0900F07B4E /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E536DA2248A6B0900F07B4E /* JavaScriptCore.framework */; };
 		DE4C456121DE1E4E00EA0709 /* FIRUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4C455F21DE1E4E00EA0709 /* FIRUtilities.m */; };
 		E588011722789D43008B0561 /* JitsiMeetContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58801132278944E008B0561 /* JitsiMeetContext.swift */; };
 		E5C97B63227A1EB400199214 /* JitsiMeetCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C97B62227A1EB400199214 /* JitsiMeetCommands.swift */; };
@@ -70,7 +69,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				0BEA5C321F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex in Embed App Extensions */,
+				0BEA5C321F7B8F73000D0AB4 /* GoQuickLive Companion Extension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,7 +80,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				0BEA5C411F7B8F73000D0AB4 /* JitsiMeetCompanion.app in Embed Watch Content */,
+				0BEA5C411F7B8F73000D0AB4 /* GoQuickLive.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,17 +97,17 @@
 		0B70016F1F7C51CC005944F4 /* InCallController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InCallController.swift; sourceTree = "<group>"; };
 		0BBD021F212EB69D00CCB19F /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
 		0BD6B4361EF82A6B00D1F4CD /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = "../../node_modules/react-native-webrtc/ios/WebRTC.framework"; sourceTree = "<group>"; };
-		0BEA5C251F7B8F73000D0AB4 /* JitsiMeetCompanion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JitsiMeetCompanion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEA5C251F7B8F73000D0AB4 /* GoQuickLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoQuickLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BEA5C281F7B8F73000D0AB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		0BEA5C2A1F7B8F73000D0AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BEA5C2C1F7B8F73000D0AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0BEA5C311F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "JitsiMeetCompanion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BEA5C311F7B8F73000D0AB4 /* GoQuickLive Companion Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "GoQuickLive Companion Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BEA5C361F7B8F73000D0AB4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		0BEA5C381F7B8F73000D0AB4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		0BEA5C3A1F7B8F73000D0AB4 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		0BEA5C3C1F7B8F73000D0AB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BEA5C3E1F7B8F73000D0AB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* jitsi-meet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "jitsi-meet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* GoQuickLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoQuickLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -117,7 +116,6 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4670A512A688E2DC34528282 /* Pods-jitsi-meet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jitsi-meet.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-jitsi-meet/Pods-jitsi-meet.debug.xcconfig"; sourceTree = "<group>"; };
 		489E8EFE2C720D10F5961AEF /* libPods-jitsi-meet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-jitsi-meet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7E536DA2248A6B0900F07B4E /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		B3B083EB1D4955FF0069CEE7 /* app.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = app.entitlements; sourceTree = "<group>"; };
 		DE4C455F21DE1E4E00EA0709 /* FIRUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FIRUtilities.m; sourceTree = "<group>"; };
 		DE4C456021DE1E4E00EA0709 /* FIRUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FIRUtilities.h; sourceTree = "<group>"; };
@@ -137,7 +135,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E536DA3248A6B0900F07B4E /* JavaScriptCore.framework in Frameworks */,
 				0B26BE6E1EC5BC3C00EEFB41 /* JitsiMeet.framework in Frameworks */,
 				0BD6B4371EF82A6B00D1F4CD /* WebRTC.framework in Frameworks */,
 				695AF3ED6F686F9C5EE40F9A /* libPods-jitsi-meet.a in Frameworks */,
@@ -157,7 +154,6 @@
 		0B26BE711EC5BC4D00EEFB41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7E536DA2248A6B0900F07B4E /* JavaScriptCore.framework */,
 				0B26BE6D1EC5BC3C00EEFB41 /* JitsiMeet.framework */,
 				0BD6B4361EF82A6B00D1F4CD /* WebRTC.framework */,
 				489E8EFE2C720D10F5961AEF /* libPods-jitsi-meet.a */,
@@ -239,9 +235,9 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* jitsi-meet.app */,
-				0BEA5C251F7B8F73000D0AB4 /* JitsiMeetCompanion.app */,
-				0BEA5C311F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex */,
+				13B07F961A680F5B00A75B9A /* GoQuickLive.app */,
+				0BEA5C251F7B8F73000D0AB4 /* GoQuickLive.app */,
+				0BEA5C311F7B8F73000D0AB4 /* GoQuickLive Companion Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -264,7 +260,7 @@
 			);
 			name = JitsiMeetCompanion;
 			productName = JitsiMeetCompanion;
-			productReference = 0BEA5C251F7B8F73000D0AB4 /* JitsiMeetCompanion.app */;
+			productReference = 0BEA5C251F7B8F73000D0AB4 /* GoQuickLive.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		0BEA5C301F7B8F73000D0AB4 /* JitsiMeetCompanion Extension */ = {
@@ -281,7 +277,7 @@
 			);
 			name = "JitsiMeetCompanion Extension";
 			productName = "JitsiMeetCompanion Extension";
-			productReference = 0BEA5C311F7B8F73000D0AB4 /* JitsiMeetCompanion Extension.appex */;
+			productReference = 0BEA5C311F7B8F73000D0AB4 /* GoQuickLive Companion Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
 		13B07F861A680F5B00A75B9A /* jitsi-meet */ = {
@@ -308,8 +304,8 @@
 				0BEA5C401F7B8F73000D0AB4 /* PBXTargetDependency */,
 			);
 			name = "jitsi-meet";
-			productName = "SaBRO Cloud";
-			productReference = 13B07F961A680F5B00A75B9A /* jitsi-meet.app */;
+			productName = "Jitsi Meet";
+			productReference = 13B07F961A680F5B00A75B9A /* GoQuickLive.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -332,7 +328,8 @@
 						ProvisioningStyle = Automatic;
 					};
 					13B07F861A680F5B00A75B9A = {
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 89B75M88K2;
+						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.SafariKeychain = {
 								enabled = 1;
@@ -344,7 +341,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GoQuickLive" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "app" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -616,8 +613,8 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				IBSC_MODULE = JitsiMeetCompanion_Extension;
 				INFOPLIST_FILE = watchos/app/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jitsi.meet.watchkit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.sabro.gql.watchkit;
+				PRODUCT_NAME = GoQuickLive;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -651,8 +648,8 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				IBSC_MODULE = JitsiMeetCompanion_Extension;
 				INFOPLIST_FILE = watchos/app/Info.plist;
-				PRODUCT_BUNDLE_IDENTIFIER = org.jitsi.meet.watchkit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.sabro.gql.watchkit;
+				PRODUCT_NAME = GoQuickLive;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -683,8 +680,8 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = watchos/extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.jitsi.meet.watchkit.extension;
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.sabro.gql.watchkit.extension;
+				PRODUCT_NAME = "GoQuickLive Companion Extension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -717,8 +714,8 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				INFOPLIST_FILE = watchos/extension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.jitsi.meet.watchkit.extension;
-				PRODUCT_NAME = "${TARGET_NAME}";
+				PRODUCT_BUNDLE_IDENTIFIER = cloud.sabro.gql.watchkit.extension;
+				PRODUCT_NAME = "GoQuickLive Companion Extension";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -736,10 +733,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconDebug;
 				CODE_SIGN_ENTITLEMENTS = app.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 89B75M88K2;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -758,7 +755,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cloud.sabro.gql;
-				PRODUCT_NAME = "jitsi-meet";
+				PRODUCT_NAME = GoQuickLive;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
@@ -771,9 +768,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconRelease;
 				CODE_SIGN_ENTITLEMENTS = app.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 89B75M88K2;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -792,7 +789,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = cloud.sabro.gql;
-				PRODUCT_NAME = "jitsi-meet";
+				PRODUCT_NAME = GoQuickLive;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
@@ -941,7 +938,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "GoQuickLive" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "app" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

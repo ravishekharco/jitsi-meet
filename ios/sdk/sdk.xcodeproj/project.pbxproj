@@ -334,7 +334,7 @@
 			dependencies = (
 			);
 			name = JitsiMeet;
-			productName = "SaBRO Cloud SDK";
+			productName = "Jitsi Meet SDK";
 			productReference = 0BD906E51EC0C00300C8C18E /* JitsiMeet.framework */;
 			productType = "com.apple.product-type.framework";
 		};
